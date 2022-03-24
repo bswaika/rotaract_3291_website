@@ -1,0 +1,242 @@
+.events.home-hero{
+    height:45vh;
+}
+
+.events .home-hero-img{
+    height:45vh;
+}
+
+@media(min-width:767px){
+    .events.home-hero{
+        height:50vh;
+    }
+    .events .home-hero-img{
+        height:50vh;
+    }
+}
+
+@media(min-width:1023px){
+    .events.home-hero{
+        height:50vh;
+    }
+    .events .home-hero-img{
+        height:50vh;
+    }
+}
+
+@media(min-width:1365px){
+    .events.home-hero{
+        height:60vh;
+    }
+    .events .home-hero-img{
+        height:60vh;
+    }
+}
+
+.events .dropdown-container{
+    z-index: 4 !important;
+    width: 70% !important;
+    position: absolute !important;
+    text-align: center !important;    
+    left:50% !important;
+    transform: translateX(-50%) !important;
+    bottom: 5% !important;
+}
+
+.events .dropdown{
+    display: inline-block !important;
+    margin-top: 0.5em !important; 
+}
+
+@media(min-width:1023px){
+    .events .dropdown-container{
+        bottom:10% !important;
+    }
+}
+
+.events .dropdown-menu{
+    position: absolute !important;
+    left:50% !important;
+    transform: translateX(-50%) !important;
+}
+
+.events .dropdown-menu li a{
+    cursor: pointer;
+}
+
+.events .container{
+    display: block;
+    width: 85%;
+    margin: 1.5em auto;
+}
+
+@media(min-width:767px){
+    .events .container{
+        width:70%;
+    }
+}
+
+@media(min-width:1023px){
+    .events .container{
+        width:60%;
+    }
+}
+
+@media(min-width:1365px){
+    .events .container{
+        width:70%;
+    }
+}
+
+.events .event.inactive{
+    display:none;
+}
+
+.events .event{
+    display: inline-block;
+    margin:2%;
+    vertical-align: top;
+}
+
+.events .event .event-container{
+    position: relative;
+    border: 2px solid #d51968;
+    border-radius: 10px;
+    padding-bottom: 1em;
+}
+
+@media(min-width:767px){
+    .events .event{
+        width:44%;
+        margin:2.5%;
+    }
+}
+
+
+@media(min-width:1365px){
+    .events .event{
+        width:22%;
+        margin:1.25%;
+    }
+}
+
+.events .event-container .event-poster{
+    width:100%;
+    height:200px;
+    object-fit: cover;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.events .event-container .event-poster-overlay{
+    display:block;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:200px;
+    background-color: rgba(214, 25, 104, 0.1);
+    z-index:2;
+    box-shadow: inset 0 0 0.5em rgba(0,0,0,0.4);
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.events .event-container .event-type{
+    display: block;
+    position: absolute;
+    top:1em;
+    right:1em;
+    font-size: 0.75rem;
+    font-weight:700;
+    padding: 0.375em;
+    z-index:3;
+    border-radius: 2px;
+}
+
+.events .event-container .event-avenue{
+    display: block;
+    position: absolute;
+    top:165px;
+    right:1em;
+    font-size: 0.75rem;
+    font-weight:700;
+    padding: 0.375em;
+    z-index:3;
+    border-radius: 2px;
+    background-color : #262626;
+    color : #fff;
+}
+
+.events .club .event-container .event-type{
+    background-color: #fff;
+    color: #d51968;
+}
+
+.events .district .event-container .event-type{
+    background-color: #d51968;
+    color: #fff;
+}
+
+
+.event-container .event-title-container{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    padding-left:1em;
+    padding-right:1em;
+}
+
+.event-container .event-title-container h2{
+    color: #d51968;
+}
+
+.event-container .event-title-container h3{
+    font-weight: 300;
+    color: #262626;
+    margin-bottom: 0.5em;
+}
+
+.event-container .event-title-container p{
+    font-weight: 400;
+    color:#262626;
+}
+
+.event-container .event-title-container .reg{
+    font-weight: 700;
+}
+
+.event-container .event-title-container .reg-open{
+    color:#2ab27b;
+}
+
+.event-container .event-title-container .reg-opens{
+    color:#cbb956;
+}
+
+.event-container .event-title-container .reg-closed{
+    color:#bf5329;
+}
+
+.event-container .event-title-container .event-body-toggler{
+    margin-top:0.5em;
+    font-size:0.8rem;
+    color:#d51968;
+    cursor:pointer;
+}
+
+.event-container .event-body-container{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.event-container .event-body-container p{
+    font-weight: 300;
+    margin-bottom: 0.5em;
+    color:#262626;
+}
+
+.no-events{
+    margin-top: 4.5em;
+    margin-bottom: 20em;
+    color: #d51968;
+}

@@ -1,0 +1,38 @@
+.home-hero-title{
+    width:100%;
+    top:40%;
+}
+
+.event-venue-date.home-hero-container{
+    position:absolute;
+    z-index: 3;
+    margin-left:1em;
+    bottom:5%;
+}
+
+.event-text{
+    color:#fff;
+    margin-top:0.5em;
+    font-size:0.8rem;
+}
+
+@media(min-width:767px){
+    .event-text{
+        font-size:1rem;
+    }
+}
+
+@media(min-width:1365px){
+    .event-text{
+        font-size:1.2rem;
+    }
+}
+
+.event-images-display.bootstrap-iso{
+    margin-top:1.5em !important; 
+}
+
+.bootstrap-iso .thumbnail{
+    background-color: #d5196840 !important;
+    border: 1px solid #26262630 !important;
+}

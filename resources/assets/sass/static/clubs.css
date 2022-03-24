@@ -1,0 +1,142 @@
+.clubs.home-hero{
+    height:40vh;
+}
+
+.clubs .home-hero-img{
+    height:40vh;
+}
+
+@media(min-width:767px){
+    .clubs.home-hero{
+        height:45vh;
+    }
+    .clubs .home-hero-img{
+        height:45vh;
+    }
+}
+
+@media(min-width:1023px){
+    .clubs.home-hero{
+        height:50vh;
+    }
+    .clubs .home-hero-img{
+        height:50vh;
+    }
+}
+
+@media(min-width:1365px){
+    .clubs.home-hero{
+        height:60vh;
+    }
+    .clubs .home-hero-img{
+        height:60vh;
+    }
+}
+
+.clubs .dropdown{
+    position: absolute !important;
+    display: block !important;
+    margin:0 auto !important;
+    z-index: 3 !important;
+    bottom:5% !important;
+    width: 100% !important;
+    text-align: center !important;
+}
+
+@media(min-width:1023px){
+    .clubs .dropdown{
+        bottom:10% !important;
+    }
+}
+
+.clubs .dropdown-menu{
+    position: absolute !important;
+    left:50% !important;
+    transform: translateX(-50%) !important;
+}
+
+.clubs .dropdown-menu li a{
+    cursor: pointer;
+}
+
+.clubs.zones-info{
+    position:relative;
+    text-align:center;
+    padding-top:1em;
+    padding-bottom: 5em;
+}
+
+.clubs .container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+@media(min-width:767px){
+    .clubs .container{
+        width:70%;
+    }
+}
+
+@media(min-width:1023px){
+    .clubs .container{
+        width:60%;
+    }
+}
+
+@media(min-width:1365px){
+    .clubs .container{
+        width:70%;
+    }
+}
+
+.clubs .zone-info{
+    display:none;
+}
+
+.clubs .zone-info.active{
+    display:block;
+}
+
+.zone-info h2{
+    padding-top: 0.5em;
+    font-weight: 700;
+    color: #d51968;
+    padding-bottom: 1em;
+}
+
+.zone-info h3{
+    font-weight: 400;
+    padding-top: 0.2em;
+    color: #262626;
+}
+
+.zone-info h3 span{
+    font-weight: 300;
+    padding-top: 0.2em;
+    color: #d51968;
+}
+
+.zone-info .zone-clubs{
+    margin-top: 1em;
+}
+
+.zone-clubs h2{
+    font-weight: 700;
+    color: #d51968;
+    padding-bottom: 0;
+}
+
+.zone-clubs .purple-hr{
+    margin : 1em auto;
+}
+
+.zone-clubs-links .zone-club-link{
+    display: block;
+    padding-top: 0.5em;
+    text-decoration: none;
+    color:#262626;
+}
+
+.zone-clubs-links .zone-club-link i{
+    color:#d51968;
+}

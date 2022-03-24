@@ -1,0 +1,257 @@
+.bootstrap-datetimepicker-widget table td.today:before {
+    border-bottom-color: #d51968 !important;
+}
+
+.bootstrap-datetimepicker-widget table td.active,
+.bootstrap-datetimepicker-widget table td.active:hover{
+    background-color: #d51968 !important;
+}
+
+.bootstrap-datetimepicker-widget table td span.active {
+    background-color: #d51968 !important;
+}
+
+.welcome-message{
+    margin-left: 1.5%;
+}
+
+@media (max-width:991px){
+    .welcome-message{
+        margin-left: 2.5%;
+    }
+}
+
+.welcome-message h3{
+    font-size: 4rem;
+}
+
+.welcome-message h3 span{
+    color: #d51968;
+    font-weight: 300;
+}
+
+.circle{
+    display:inline-block;
+    position:relative;
+    height: 150px;
+    width: 150px;
+    vertical-align:top;
+    margin: 1.5rem 1.5%;
+    border-radius:50%;
+    border: 10px solid #262626;
+}
+
+.circle .circle-heading{
+    position: relative;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin-top:0;
+    margin-bottom: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 9rem;
+    font-weight: 700;
+    color:#d51968;
+}
+
+
+
+.circle .circle-text{
+    position: absolute;
+    top:110%;
+    left:0;
+    right:0;
+    text-align: center;
+    color:#d51968;
+    font-size:1.8rem;
+
+}
+
+.circle.events .circle-heading,
+.circle.members .circle-heading{
+	font-size:3em;
+}
+
+@media (max-width:991px){
+    .circle{
+        height: 110px;
+        width: 110px;
+        margin: 1.5rem 2.5%;
+    }
+    .circle .circle-heading{
+        font-size: 6rem;
+    }
+    .circle .circle-text{
+        font-size:1.5rem;
+    }
+    
+    .circle.events .circle-heading,
+    .circle.members .circle-heading{
+	font-size:1.7em;
+    }
+}
+
+@media (max-width:600px){
+    .circle{
+        height: 63px;
+        width: 63px;
+        margin: 1.5rem 2.5%;
+        border: 5px solid #262626;
+    }
+    .circle .circle-heading{
+        font-size: 3rem;
+    }
+    .circle .circle-text{
+        font-size:1.2rem;
+    }
+    .circle.events .circle-heading,
+    .circle.members .circle-heading{
+	font-size:0.9em;
+    }
+}
+
+
+.rectangle{
+    display:inline-block;
+    position:relative;
+    height: 150px;
+    min-width:150px;
+    margin: 1.5rem 1.5%;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #ce7196 0%,#d14f85 10%,#d51968 100%);
+    padding:10px;
+}
+
+.rectangle .rectangle-heading{
+    position: relative;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin-top:0;
+    margin-bottom: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 9rem;
+    font-weight: 700;
+    color:#fff;
+}
+
+.rectangle .rectangle-text{
+    position: absolute;
+    top:102%;
+    left:0;
+    right:0;
+    text-align: center;
+    color:#262626;
+    font-size:1.8rem;
+}
+
+@media (max-width:991px){
+    .rectangle{
+        height: 110px;
+        min-width: 110px;
+        margin: 1.5rem 2.5%;
+    }
+    .rectangle .rectangle-heading{
+        font-size: 6rem;
+    }
+    .rectangle .rectangle-text{
+        top:98.5%;
+        font-size:1.5rem;
+    }
+}
+
+@media (max-width:600px){
+    .rectangle{
+        height: 63px;
+        min-width: 63px;
+        margin: 1.5rem 2.5%;
+        padding:5px;
+    }
+    .rectangle .rectangle-heading{
+        font-size: 3rem;
+    }
+    .rectangle .rectangle-text{
+        top:99.5%;
+        font-size:1.2rem;
+    }
+}
+
+.purple-hr{
+    margin:3rem auto;
+    border:none;
+    height:3px;
+    border-radius:1.5px;
+    background: #d51968;
+}
+
+.dashboard-link, .dashboard-link:hover, .dashboard-link:focus{
+    text-decoration: none;
+}
+
+.dashboard-button{
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+    height: 7.5em;
+    margin: 1.5em 1.5%;
+    background: linear-gradient(45deg, #ce7196 0%,#d14f85 10%,#d51968 100%);
+    color:#fff;
+    border-radius:10px;
+}
+
+@media (max-width:991px){
+    .dashboard-button{
+        width:44.5%;
+        margin: 1.5em 2.5%;
+    }
+}
+
+@media (max-width:600px){
+    .dashboard-button{
+        display: block;
+        width:90%;
+        margin: 1.5em auto;
+    }
+}
+
+.dashboard-button p{
+    text-transform: lowercase;
+    position:relative;
+    top:50%;
+    transform: translateY(-50%);
+    font-size: 3rem;
+}
+
+h3.panel-heading{
+    padding-left:0;
+    font-size:4rem;
+    text-transform: lowercase;
+}
+
+h3.panel-heading::first-letter{
+    text-transform: uppercase;
+    color:#d51968;
+}
+
+.dashboard-backdrop{
+    z-index:-1000;
+    position:fixed;
+    bottom:0;
+    right:0;
+    width: 30%;
+    height:auto;
+}
+
+@media (max-width:991px){
+    .dashboard-backdrop{
+        width:45%;
+    }
+}
+
+@media (max-width:600px){
+    .dashboard-backdrop{
+        width:60%;
+    }
+}

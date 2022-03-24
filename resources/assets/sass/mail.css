@@ -1,0 +1,83 @@
+.mail-logo-bg{
+    width:100%;
+    background: linear-gradient(45deg, #ce7196 0%,#d14f85 10%,#d51968 100%);
+}
+
+.mail-logo img{
+    position:relative;
+    max-width: 250px;
+    height: auto;
+    left:50%;
+    transform: translateX(-50%);
+    margin: 24px auto;
+}
+
+.salutation span{
+    font-weight:700;
+    color: #d51968;
+}
+
+p{
+    text-indent:50px;
+}
+
+.greetings em{
+    color: #d51968;
+}
+
+.website-link{
+    text-align:center;
+    margin-top: 50px;
+}
+
+.mail-body{
+    min-height:calc(100vh - 360px);
+}
+
+.pattern{
+    position:relative;
+    left:100%;
+    transform: translateX(-100%);
+    max-width: 10vh;
+    height:auto;
+}
+
+.footer{
+    position:relative;
+    bottom:0;
+    background: #262626;
+    width:100%;
+    text-align:center;
+}
+
+.footer hr{
+    background-color:#d51968;
+    display:block;
+    height:1px;
+    width:30%;
+    border:none;
+    margin:8px auto;
+}
+
+.footer p{
+    text-indent:0px;
+    color: rgba(255,255,255,0.6);
+    padding-top: 0;
+    margin-top:8px;
+    margin-bottom:4px;
+}
+
+.footer ul{
+    list-style-type: none;
+    padding:0;
+}
+
+.footer ul li{
+    display: inline-block;
+    margin-left: 16px;
+}
+
+.footer img{
+    max-width:40px;
+    height:auto;
+}
